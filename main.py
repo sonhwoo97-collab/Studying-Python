@@ -24,10 +24,16 @@ class Cal:
         return re
     
     def print_a(self):
+        
         print(f'덧셈결과: {self.pl()}')
+
         print(f'뺄셈결과: {self.mi()}')
+
         print(f'곱셈결과: {self.mu()}')
+
         print(f'나눗셈결과: {self.di()}')
+
         print(f'제곱결과: {self.pow()}')
+
 a=Cal(2,3)
 a.print_a()
